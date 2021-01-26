@@ -8,12 +8,12 @@ This work is still in progress, but when the development is finished, this repos
 
 # Example of use
 
-A costumer recharges his account using two different credit cards, with two different fees each:
+A customer recharges his account using two different credit cards, with two different fees each:
 
 - $10 - Mastercard - 7.50% fee
 - $25 - Amex - 9.00% fee
 
-Then this costumer uses his credits twice:
+Then this customer uses his credits twice:
 
 - $ 12.50 - charged on jan 26th 2021
 - $ 12.50 - charged on jan 26th 2021
@@ -26,7 +26,7 @@ For achieving my needs, I'll create a custom bracket solution for charging the f
 - From 0.00 to 10.00, I'll charge a 7.50% fee
 - From 10.00 to 25.00 I'll charge a 9.00% fee
 
-As the balance increases, the fee will be calculated adding a "padding" value from the previous usages's sum, and create new brackets for charging the fee correctly.
+As the balance increases, the fee will be calculated adding a "padding" value from the previous usages' sum, and create new brackets for charging the fee correctly.
 
 ## Installation
 First of all, you need to have Docker and docker-compose installed.
@@ -45,11 +45,11 @@ database: washngo
 username/password: dev
 ``` 
 
-> You can alternatively use [adminer](https://www.adminer.org/) to import the seed.sql file and manage the database. Adminer is already included on the docker-compose file in this repository. Navigate to http://localhost:8080 using your browser and connect using the same settings provided above.
+> You can alternatively use [adminer](https://www.adminer.org/) to import the seed.sql file and manage the database. Adminer is already included in the docker-compose file in this repository. Navigate to http://localhost:8080 using your browser and connect using the same settings provided above.
 
-Run the script contained at ```seed.sql```
+Run the script contained in ```seed.sql``` file
 
 The file ```queries.sql``` contains the queries I've written so far.
 
 ## License
-This project is licenced under [MIT](https://choosealicense.com/licenses/mit/) terms.
+This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) terms.
