@@ -4,6 +4,8 @@ This project is a study for meeting a business requirement, where a system with 
 
 For this project, I tried to implement a algorithm similar to IRS brackets, where the fee is calculated accordingly to dynamic tiers of spending.
 
+This work is still in progress, but when the development is finished, this repository should contain a stored procedure, functions or other database objects that returns a report with usages, fees and the final value to a date range.
+
 # Example of use
 
 A costumer recharges his account using two different credit cards, with two different fees each:
